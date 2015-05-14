@@ -1,0 +1,27 @@
+{
+  "name": "xhr-offline",
+  "version": "1.0.0-dev",
+  "description": "Cache XMLHttpRequests for offline",
+  "main": "lib/xhr-offline.js",
+  "scripts": {
+    "test": "standard lib/*.js",
+    "build": "browserify lib/xhr-offline.js -o dist/xhr-offline.js"
+  },
+  "author": "Gregor MacLennan",
+  "license": "MIT",
+  "dependencies": {
+    "inherits": "^2.0.1",
+    "xtend": "^4.0.0"
+  },
+  "devDependencies": {
+    "standard": "^3.8.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/digidem/xhr-offline.git"
+  },
+  "bugs": {
+    "url": "https://github.com/digidem/xhr-offline/issues"
+  },
+  "homepage": "https://github.com/digidem/xhr-offline"
+}
